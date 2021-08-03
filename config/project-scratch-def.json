@@ -1,0 +1,21 @@
+{
+<<<<<<< HEAD
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+=======
+    "orgName": "OXIQUIM",
+    "edition": "Developer",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
+    }
+>>>>>>> 7e8cd62b42546fb8a525f4ba0115e6a31ef2d562
+}
