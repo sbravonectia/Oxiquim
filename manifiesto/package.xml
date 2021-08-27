@@ -20,14 +20,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Cuenta_P_gina_de_registro</members>
-        <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>Account-Cliente</members>
-        <name>Layout</name>
-    </types>
-    <types>
         <members>AccountOwnership</members>
         <members>Type</members>
         <name>StandardValueSet</name>
