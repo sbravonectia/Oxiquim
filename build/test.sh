@@ -1,6 +1,6 @@
 echo "Conectar Oxiquim"
 sfdx force:org:list
-sfdx force: mdapi:convert -d deploy_prod -r pruebaPackage
+sfdx force:mdapi:convert -d deploy_prod -r pruebaPackage
 
 #Para el paso a QA
 sfdx config:set defaultusername=administrador_nectia@nectia.com.qa
