@@ -28,10 +28,6 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Account.Condiciones_de_Pago</members>
-        <name>QuickAction</name>
-    </types>
-    <types>
         <members>AccountOwnership</members>
         <members>Type</members>
         <name>StandardValueSet</name>
