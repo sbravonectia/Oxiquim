@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Account_Compact_Layout</members>
+        <members>Contact.SYSTEM</members>
         <name>CompactLayout</name>
     </types>
     <types>
-        <members>Account.Actividad_Industrial__c</members>
-        <members>Account.C_digo_de_Error__c</members>
-        <members>Account.CodigoSAP__c</members>
-        <members>Account.Descripci_n__c</members>
-        <members>Account.Giro__c</members>
-        <members>Account.Mensaje_de_Error__c</members>
-        <members>Account.Oficina_Depto_Otro__c</members>
-        <members>Account.RUT_Razon_Social__c</members>
-        <members>Account.Sociedad__c</members>
-        <members>Account.SubCategoria__c</members>
+        <members>Contact.Cargo__c</members>
+        <members>Contact.ID_Contacto_SAP__c</members>
+        <members>Contact.Informacion_Adicional__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>AccountOwnership</members>
-        <members>AccountType</members>
+        <members>Contact_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Contact-Contact Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>LeadSource</members>
         <name>StandardValueSet</name>
     </types>
     <version>52.0</version>
