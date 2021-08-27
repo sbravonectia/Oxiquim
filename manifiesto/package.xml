@@ -1,42 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Lead.Leads_Custom_Compact_Layout</members>
+        <members>Account.Account_Compact_Layout</members>
         <name>CompactLayout</name>
     </types>
     <types>
-        <members>Lead.Descripci_n__c</members>
-        <members>Lead.Division_de_negocio__c</members>
-        <members>Lead.Giro__c</members>
-        <members>Lead.Oficina_Depto_Otro__c</members>
-        <members>Lead.RUT_Razon_Social__c</members>
-        <members>Lead.Sub_Categoria__c</members>
-        <members>Lead.Unidad_de_Negocio__c</members>
+        <members>Account.Actividad_Industrial__c</members>
+        <members>Account.C_digo_de_Error__c</members>
+        <members>Account.CodigoSAP__c</members>
+        <members>Account.Descripci_n__c</members>
+        <members>Account.Division_de_Negocio__c</members>
+        <members>Account.Giro__c</members>
+        <members>Account.Mensaje_de_Error__c</members>
+        <members>Account.Oficina_Depto_Otro__c</members>
+        <members>Account.RUT_Razon_Social__c</members>
+        <members>Account.Sociedad__c</members>
+        <members>Account.SubCategoria__c</members>
+        <members>Account.Unidad_de_Negocio__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Lead_Record_Page</members>
+        <members>Cuenta_P_gina_de_registro</members>
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Lead-Prospecto</members>
+        <members>Account-Cliente</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>AccountRating</members>
-        <members>Industry</members>
-        <members>LeadSource</members>
-        <name>StandardValueSet</name>
+        <members>Account.Condiciones_de_Pago</members>
+        <name>QuickAction</name>
     </types>
     <types>
-        <members>Industry</members>
-        <members>LeadSource</members>
-        <members>LeadStatus</members>
+        <members>AccountOwnership</members>
+        <members>Type</members>
         <name>StandardValueSet</name>
-    </types>
-    <types>
-        <members>Lead.Validacion_de_Rut_Razon_Social</members>
-        <name>ValidationRule</name>
     </types>
     <version>52.0</version>
 </Package>
