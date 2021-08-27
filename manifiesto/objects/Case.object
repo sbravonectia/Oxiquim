@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>Casos_Oxiquim</fullName>
+        <fields>CaseNumber</fields>
+        <fields>Subject</fields>
+        <fields>Priority</fields>
+        <fields>Status</fields>
+        <fields>RecordTypeId</fields>
+        <fields>AccountId</fields>
+        <label>Casos Oxiquim</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Contrato__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contrato</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Casos</relationshipLabel>
+        <relationshipName>Casos</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Detalle_Submotivo_Reclamo__c</fullName>
+        <externalId>false</externalId>
+        <label>Detalle Submotivo Reclamo</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Submotivo_del_reclamo__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No cumple requerimiento de cliente</fullName>
+                    <default>false</default>
+                    <label>No cumple requerimiento de cliente</label>
+                </value>
+                <value>
+                    <fullName>No cumple parámetros especificación</fullName>
+                    <default>false</default>
+                    <label>No cumple parámetros especificación</label>
+                </value>
+                <value>
+                    <fullName>Vencido (Industrial)</fullName>
+                    <default>false</default>
+                    <label>Vencido (Industrial)</label>
+                </value>
+                <value>
+                    <fullName>Contaminado (Food)</fullName>
+                    <default>false</default>
+                    <label>Contaminado (Food)</label>
+                </value>
+                <value>
+                    <fullName>Contaminado (Farma)</fullName>
+                    <default>false</default>
+                    <label>Contaminado (Farma)</label>
+                </value>
+                <value>
+                    <fullName>Contaminado (Feed)</fullName>
+                    <default>false</default>
+                    <label>Contaminado (Feed)</label>
+                </value>
+                <value>
+                    <fullName>Vencido (Food)</fullName>
+                    <default>false</default>
+                    <label>Vencido (Food)</label>
+                </value>
+                <value>
+                    <fullName>Vencido (Farma)</fullName>
+                    <default>false</default>
+                    <label>Vencido (Farma)</label>
+                </value>
+                <value>
+                    <fullName>Vencido (Feed)</fullName>
+                    <default>false</default>
+                    <label>Vencido (Feed)</label>
+                </value>
+                <value>
+                    <fullName>Por vencer (Industrial)</fullName>
+                    <default>false</default>
+                    <label>Por vencer (Industrial)</label>
+                </value>
+                <value>
+                    <fullName>Por vencer (Food)</fullName>
+                    <default>false</default>
+                    <label>Por vencer (Food)</label>
+                </value>
+                <value>
+                    <fullName>Por vencer (Farma)</fullName>
+                    <default>false</default>
+                    <label>Por vencer (Farma)</label>
+                </value>
+                <value>
+                    <fullName>Por vencer (Feed)</fullName>
+                    <default>false</default>
+                    <label>Por vencer (Feed)</label>
+                </value>
+                <value>
+                    <fullName>Otro calidad</fullName>
+                    <default>false</default>
+                    <label>Otro calidad</label>
+                </value>
+                <value>
+                    <fullName>Envase (no original, defectuoso, roto, con filtración, sucio, oxidado, abollado, mojado, etc.</fullName>
+                    <default>false</default>
+                    <label>Envase (no original, defectuoso, roto, con filtración, sucio, oxidado, abollado, mojado, etc.</label>
+                </value>
+                <value>
+                    <fullName>Rotulación incompleta, equivocada, sin etiqueta, sin lote, sucia , dañada, etc</fullName>
+                    <default>false</default>
+                    <label>Rotulación incompleta, equivocada, sin etiqueta, sin lote, sucia , dañada, etc</label>
+                </value>
+                <value>
+                    <fullName>Fecha de elaboración y vencimiento no coincide con certificado C.O.A.</fullName>
+                    <default>false</default>
+                    <label>Fecha de elaboración y vencimiento no coincide con certificado C.O.A.</label>
+                </value>
+                <value>
+                    <fullName>Diferencia de pesaje (menor cantidad respecto a etiqueta)</fullName>
+                    <default>false</default>
+                    <label>Diferencia de pesaje (menor cantidad respecto a etiqueta)</label>
+                </value>
+                <value>
+                    <fullName>Sellos (defectuosos, sin sellos)</fullName>
+                    <default>false</default>
+                    <label>Sellos (defectuosos, sin sellos)</label>
+                </value>
+                <value>
+                    <fullName>Producto sin paletiza</fullName>
+                    <default>false</default>
+                    <label>Producto sin paletiza</label>
+                </value>
+                <value>
+                    <fullName>Pallets (rotos o en mal estado)</fullName>
+                    <default>false</default>
+                    <label>Pallets (rotos o en mal estado)</label>
+                </value>
+                <value>
+                    <fullName>Otro presentación</fullName>
+                    <default>false</default>
+                    <label>Otro presentación</label>
+                </value>
+                <value>
+                    <fullName>Error en precio y/o producto y/o lote y/o factura y/o cantidad</fullName>
+                    <default>false</default>
+                    <label>Error en precio y/o producto y/o lote y/o factura y/o cantidad</label>
+                </value>
+                <value>
+                    <fullName>Error de datos de cliente en factura o guía de despacho</fullName>
+                    <default>false</default>
+                    <label>Error de datos de cliente en factura o guía de despacho</label>
+                </value>
+                <value>
+                    <fullName>Error tipo de envase</fullName>
+                    <default>false</default>
+                    <label>Error tipo de envase</label>
+                </value>
+                <value>
+                    <fullName>Error de cantidad</fullName>
+                    <default>false</default>
+                    <label>Error de cantidad</label>
+                </value>
+                <value>
+                    <fullName>Otro documentación</fullName>
+                    <default>false</default>
+                    <label>Otro documentación</label>
+                </value>
+                <value>
+                    <fullName>No enviado y/o adjunto al despacho</fullName>
+                    <default>false</default>
+                    <label>No enviado y/o adjunto al despacho</label>
+                </value>
+                <value>
+                    <fullName>Falta y/o error en fechas de elaboración y/o vencimiento</fullName>
+                    <default>false</default>
+                    <label>Falta y/o error en fechas de elaboración y/o vencimiento</label>
+                </value>
+                <value>
+                    <fullName>No corresponde al producto solicitado</fullName>
+                    <default>false</default>
+                    <label>No corresponde al producto solicitado</label>
+                </value>
+                <value>
+                    <fullName>No se envía certificado original del fabricante</fullName>
+                    <default>false</default>
+                    <label>No se envía certificado original del fabricante</label>
+                </value>
+                <value>
+                    <fullName>Lote no corresponde al solicitado</fullName>
+                    <default>false</default>
+                    <label>Lote no corresponde al solicitado</label>
+                </value>
+                <value>
+                    <fullName>Otro problema con C.O.A.</fullName>
+                    <default>false</default>
+                    <label>Otro problema con C.O.A.</label>
+                </value>
+                <value>
+                    <fullName>Logística</fullName>
+                    <default>false</default>
+                    <label>Logística</label>
+                </value>
+                <value>
+                    <fullName>Transporte</fullName>
+                    <default>false</default>
+                    <label>Transporte</label>
+                </value>
+                <value>
+                    <fullName>Ventas</fullName>
+                    <default>false</default>
+                    <label>Ventas</label>
+                </value>
+                <value>
+                    <fullName>Telefónico</fullName>
+                    <default>false</default>
+                    <label>Telefónico</label>
+                </value>
+                <value>
+                    <fullName>Asistencia técnica</fullName>
+                    <default>false</default>
+                    <label>Asistencia técnica</label>
+                </value>
+                <value>
+                    <fullName>Crédito y cobranzas</fullName>
+                    <default>false</default>
+                    <label>Crédito y cobranzas</label>
+                </value>
+                <value>
+                    <fullName>Otros mala atención</fullName>
+                    <default>false</default>
+                    <label>Otros mala atención</label>
+                </value>
+                <value>
+                    <fullName>Producto equivocado</fullName>
+                    <default>false</default>
+                    <label>Producto equivocado</label>
+                </value>
+                <value>
+                    <fullName>Envase equivocado</fullName>
+                    <default>false</default>
+                    <label>Envase equivocado</label>
+                </value>
+                <value>
+                    <fullName>Diferencia de cantidad</fullName>
+                    <default>false</default>
+                    <label>Diferencia de cantidad</label>
+                </value>
+                <value>
+                    <fullName>Lugar de entrega</fullName>
+                    <default>false</default>
+                    <label>Lugar de entrega</label>
+                </value>
+                <value>
+                    <fullName>Fecha de entrega</fullName>
+                    <default>false</default>
+                    <label>Fecha de entrega</label>
+                </value>
+                <value>
+                    <fullName>Horario de entrega</fullName>
+                    <default>false</default>
+                    <label>Horario de entrega</label>
+                </value>
+                <value>
+                    <fullName>Problema con descarga</fullName>
+                    <default>false</default>
+                    <label>Problema con descarga</label>
+                </value>
+                <value>
+                    <fullName>Falta de E.P.P.</fullName>
+                    <default>false</default>
+                    <label>Falta de E.P.P.</label>
+                </value>
+                <value>
+                    <fullName>Pedido duplicado</fullName>
+                    <default>false</default>
+                    <label>Pedido duplicado</label>
+                </value>
+                <value>
+                    <fullName>Derrame en descarga</fullName>
+                    <default>false</default>
+                    <label>Derrame en descarga</label>
+                </value>
+                <value>
+                    <fullName>Problemas con lote</fullName>
+                    <default>false</default>
+                    <label>Problemas con lote</label>
+                </value>
+                <value>
+                    <fullName>No cumple con requisitos de seguridad del cliente</fullName>
+                    <default>false</default>
+                    <label>No cumple con requisitos de seguridad del cliente</label>
+                </value>
+                <value>
+                    <fullName>No se entrega producto en ruta asignada</fullName>
+                    <default>false</default>
+                    <label>No se entrega producto en ruta asignada</label>
+                </value>
+                <value>
+                    <fullName>Otros despacho</fullName>
+                    <default>false</default>
+                    <label>Otros despacho</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>No cumple requerimiento de cliente</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>No cumple parámetros especificación</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Vencido (Industrial)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Contaminado (Food)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Contaminado (Farma)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Contaminado (Feed)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Vencido (Food)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Vencido (Farma)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Vencido (Feed)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Por vencer (Industrial)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Por vencer (Food)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Por vencer (Farma)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Por vencer (Feed)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Calidad del Producto</controllingFieldValue>
+                <valueName>Otro calidad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Presentación del Producto</controllingFieldValue>
+                <valueName>Envase (no original, defectuoso, roto, con filtración, sucio, oxidado, abollado, mojado, etc.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Presentación del Producto</controllingFieldValue>
+                <valueName>Rotulación incompleta, equivocada, sin etiqueta, sin lote, sucia , dañada, etc</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Presentación del Producto</controllingFieldValue>
+                <valueName>Fecha de elaboración y vencimiento no coincide con certificado C.O.A.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Presentación del Producto</controllingFieldValue>
+                <valueName>Diferencia de pesaje (menor cantidad respecto a etiqueta)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Presentación del Producto</controllingFieldValue>
+                <valueName>Sellos (defectuosos, sin sellos)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Presentación del Producto</controllingFieldValue>
+                <valueName>Producto sin paletiza</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Presentación del Producto</controllingFieldValue>
+                <valueName>Pallets (rotos o en mal estado)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Presentación del Producto</controllingFieldValue>
+                <valueName>Otro presentación</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documento mal emitido</controllingFieldValue>
+                <valueName>Error en precio y/o producto y/o lote y/o factura y/o cantidad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documento mal emitido</controllingFieldValue>
+                <valueName>Error de datos de cliente en factura o guía de despacho</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documento mal emitido</controllingFieldValue>
+                <valueName>Error tipo de envase</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documento mal emitido</controllingFieldValue>
+                <valueName>Error de cantidad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documento mal emitido</controllingFieldValue>
+                <valueName>Otro documentación</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Problemas con Certificado</controllingFieldValue>
+                <valueName>No enviado y/o adjunto al despacho</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Problemas con Certificado</controllingFieldValue>
+                <valueName>Falta y/o error en fechas de elaboración y/o vencimiento</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Problemas con Certificado</controllingFieldValue>
+                <valueName>No corresponde al producto solicitado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Problemas con Certificado</controllingFieldValue>
+                <valueName>No se envía certificado original del fabricante</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Problemas con Certificado</controllingFieldValue>
+                <valueName>Lote no corresponde al solicitado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Problemas con Certificado</controllingFieldValue>
+                <valueName>Otro problema con C.O.A.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mala atención/incumplimiento servicio</controllingFieldValue>
+                <valueName>Logística</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mala atención/incumplimiento servicio</controllingFieldValue>
+                <valueName>Transporte</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mala atención/incumplimiento servicio</controllingFieldValue>
+                <valueName>Ventas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mala atención/incumplimiento servicio</controllingFieldValue>
+                <valueName>Telefónico</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mala atención/incumplimiento servicio</controllingFieldValue>
+                <valueName>Asistencia técnica</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mala atención/incumplimiento servicio</controllingFieldValue>
+                <valueName>Crédito y cobranzas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mala atención/incumplimiento servicio</controllingFieldValue>
+                <valueName>Otros mala atención</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Producto equivocado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Envase equivocado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Diferencia de cantidad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Lugar de entrega</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Fecha de entrega</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Horario de entrega</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Problema con descarga</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Falta de E.P.P.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Pedido duplicado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Derrame en descarga</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Problemas con lote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>No cumple con requisitos de seguridad del cliente</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>No se entrega producto en ruta asignada</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Despacho</controllingFieldValue>
+                <valueName>Otros despacho</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Evaluacion_de_Informe__c</fullName>
+        <externalId>false</externalId>
+        <label>Evaluación de Informe</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aprueba</fullName>
+                    <default>false</default>
+                    <label>Aprueba</label>
+                </value>
+                <value>
+                    <fullName>Rechaza</fullName>
+                    <default>false</default>
+                    <label>Rechaza</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Indicador_Etapa__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+   
+          Resumen_Etapa__c   &lt;=   4,
+        
+
+             IMAGE(&quot;https://oxiquim--sbx2021--c.visualforce.com/resource/1626119141000/Verde&quot;,&quot;VERDE&quot;,30,30),
+
+             IMAGE(&quot;https://oxiquim--sbx2021--c.visualforce.com/resource/1626119157000/Rojo?&quot;,&quot;ROJO&quot;,30,30))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Indicador Etapa</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Investigador_a_cargo__c</fullName>
+        <externalId>false</externalId>
+        <label>Investigador a cargo</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Numero_de_Oxireport__c</fullName>
+        <externalId>false</externalId>
+        <label>Número de Oxireport</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Oportunidad__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Oportunidad</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Casos</relationshipLabel>
+        <relationshipName>Casos</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Planta__c</fullName>
+        <externalId>false</externalId>
+        <label>Planta</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Iquique</fullName>
+                    <default>false</default>
+                    <label>Iquique</label>
+                </value>
+                <value>
+                    <fullName>Mejillones</fullName>
+                    <default>false</default>
+                    <label>Mejillones</label>
+                </value>
+                <value>
+                    <fullName>Quintero</fullName>
+                    <default>false</default>
+                    <label>Quintero</label>
+                </value>
+                <value>
+                    <fullName>Quilicura</fullName>
+                    <default>false</default>
+                    <label>Quilicura</label>
+                </value>
+                <value>
+                    <fullName>Santa María</fullName>
+                    <default>false</default>
+                    <label>Santa María</label>
+                </value>
+                <value>
+                    <fullName>Escuadrón</fullName>
+                    <default>false</default>
+                    <label>Escuadrón</label>
+                </value>
+                <value>
+                    <fullName>Puerto Montt</fullName>
+                    <default>false</default>
+                    <label>Puerto Montt</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Resumen_Etapa__c</fullName>
+        <externalId>false</externalId>
+        <label>Resumen Etapa</label>
+        <summaryFilterItems>
+            <field>Plazos_por_Etapa__c.D_as_Transcurridos_numero__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </summaryFilterItems>
+        <summaryForeignKey>Plazos_por_Etapa__c.Caso__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Rut_Razon_Social__c</fullName>
+        <externalId>false</externalId>
+        <label>Rut Razón Social</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Submotivo_del_reclamo__c</fullName>
+        <externalId>false</externalId>
+        <label>Submotivo del reclamo</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Reason</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Calidad del Producto</fullName>
+                    <default>false</default>
+                    <label>Calidad del Producto</label>
+                </value>
+                <value>
+                    <fullName>Presentación del Producto</fullName>
+                    <default>false</default>
+                    <label>Presentación del Producto</label>
+                </value>
+                <value>
+                    <fullName>Documento mal emitido</fullName>
+                    <default>false</default>
+                    <label>Documento mal emitido</label>
+                </value>
+                <value>
+                    <fullName>Problemas con Certificado</fullName>
+                    <default>false</default>
+                    <label>Problemas con Certificado</label>
+                </value>
+                <value>
+                    <fullName>Mala atención/incumplimiento servicio</fullName>
+                    <default>false</default>
+                    <label>Mala atención/incumplimiento servicio</label>
+                </value>
+                <value>
+                    <fullName>Despacho</fullName>
+                    <default>false</default>
+                    <label>Despacho</label>
+                </value>
+                <value>
+                    <fullName>Post-Venta (División Resinas)</fullName>
+                    <default>false</default>
+                    <label>Post-Venta (División Resinas)</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Producto</controllingFieldValue>
+                <valueName>Calidad del Producto</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Producto</controllingFieldValue>
+                <valueName>Presentación del Producto</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documento</controllingFieldValue>
+                <valueName>Documento mal emitido</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Documento</controllingFieldValue>
+                <valueName>Problemas con Certificado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Servicio</controllingFieldValue>
+                <valueName>Mala atención/incumplimiento servicio</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Servicio</controllingFieldValue>
+                <valueName>Despacho</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Servicio</controllingFieldValue>
+                <valueName>Post-Venta (División Resinas)</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <recordTypes>
+        <fullName>Reclamo</fullName>
+        <active>true</active>
+        <businessProcess>Reclamos</businessProcess>
+        <compactLayoutAssignment>Casos_Oxiquim</compactLayoutAssignment>
+        <label>Reclamo</label>
+        <picklistValues>
+            <picklist>Detalle_Submotivo_Reclamo__c</picklist>
+            <values>
+                <fullName>Asistencia técnica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contaminado %28Farma%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contaminado %28Feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contaminado %28Food%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Crédito y cobranzas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Derrame en descarga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diferencia de cantidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diferencia de pesaje %28menor cantidad respecto a etiqueta%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Envase %28no original%2C defectuoso%2C roto%2C con filtración%2C sucio%2C oxidado%2C abollado%2C mojado%2C etc%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Envase equivocado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error de cantidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error de datos de cliente en factura o guía de despacho</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error en precio y%2Fo producto y%2Fo lote y%2Fo factura y%2Fo cantidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error tipo de envase</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falta de E%2EP%2EP%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falta y%2Fo error en fechas de elaboración y%2Fo vencimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fecha de elaboración y vencimiento no coincide con certificado C%2EO%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fecha de entrega</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Horario de entrega</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logística</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lote no corresponde al solicitado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lugar de entrega</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No corresponde al producto solicitado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No cumple con requisitos de seguridad del cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No cumple parámetros especificación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No cumple requerimiento de cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No enviado y%2Fo adjunto al despacho</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No se entrega producto en ruta asignada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No se envía certificado original del fabricante</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otro calidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otro documentación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otro presentación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otro problema con C%2EO%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros despacho</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros mala atención</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pallets %28rotos o en mal estado%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pedido duplicado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por vencer %28Farma%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por vencer %28Feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por vencer %28Food%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por vencer %28Industrial%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problema con descarga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problemas con lote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producto equivocado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producto sin paletiza</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rotulación incompleta%2C equivocada%2C sin etiqueta%2C sin lote%2C sucia %2C dañada%2C etc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sellos %28defectuosos%2C sin sellos%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telefónico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transporte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vencido %28Farma%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vencido %28Feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vencido %28Food%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vencido %28Industrial%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ventas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Evaluacion_de_Informe__c</picklist>
+            <values>
+                <fullName>Aprueba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechaza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Planta__c</picklist>
+            <values>
+                <fullName>Escuadrón</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iquique</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mejillones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quilicura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quintero</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santa María</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Alta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baja</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Documento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Submotivo_del_reclamo__c</picklist>
+            <values>
+                <fullName>Calidad del Producto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Despacho</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Documento mal emitido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mala atención%2Fincumplimiento servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Post-Venta %28División Resinas%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presentación del Producto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problemas con Certificado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Reclamo</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sugerencias_o_Solicitudes</fullName>
+        <active>true</active>
+        <businessProcess>Sugerencia o Solicitud</businessProcess>
+        <compactLayoutAssignment>Casos_Oxiquim</compactLayoutAssignment>
+        <label>Sugerencias o Solicitudes</label>
+        <picklistValues>
+            <picklist>Detalle_Submotivo_Reclamo__c</picklist>
+            <values>
+                <fullName>Asistencia técnica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contaminado %28Farma%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contaminado %28Feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contaminado %28Food%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Crédito y cobranzas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Derrame en descarga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diferencia de cantidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diferencia de pesaje %28menor cantidad respecto a etiqueta%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Envase %28no original%2C defectuoso%2C roto%2C con filtración%2C sucio%2C oxidado%2C abollado%2C mojado%2C etc%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Envase equivocado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error de cantidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error de datos de cliente en factura o guía de despacho</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error en precio y%2Fo producto y%2Fo lote y%2Fo factura y%2Fo cantidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error tipo de envase</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falta de E%2EP%2EP%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falta y%2Fo error en fechas de elaboración y%2Fo vencimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fecha de elaboración y vencimiento no coincide con certificado C%2EO%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fecha de entrega</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Horario de entrega</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logística</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lote no corresponde al solicitado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lugar de entrega</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No corresponde al producto solicitado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No cumple con requisitos de seguridad del cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No cumple parámetros especificación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No cumple requerimiento de cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No enviado y%2Fo adjunto al despacho</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No se entrega producto en ruta asignada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No se envía certificado original del fabricante</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otro calidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otro documentación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otro presentación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otro problema con C%2EO%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros despacho</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros mala atención</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pallets %28rotos o en mal estado%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pedido duplicado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por vencer %28Farma%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por vencer %28Feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por vencer %28Food%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por vencer %28Industrial%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problema con descarga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problemas con lote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producto equivocado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producto sin paletiza</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rotulación incompleta%2C equivocada%2C sin etiqueta%2C sin lote%2C sucia %2C dañada%2C etc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sellos %28defectuosos%2C sin sellos%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telefónico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transporte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vencido %28Farma%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vencido %28Feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vencido %28Food%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vencido %28Industrial%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ventas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Evaluacion_de_Informe__c</picklist>
+            <values>
+                <fullName>Aprueba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechaza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Planta__c</picklist>
+            <values>
+                <fullName>Escuadrón</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iquique</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mejillones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quilicura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quintero</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santa María</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Alta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baja</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Documento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Submotivo_del_reclamo__c</picklist>
+            <values>
+                <fullName>Calidad del Producto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Despacho</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Documento mal emitido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mala atención%2Fincumplimiento servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Post-Venta %28División Resinas%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presentación del Producto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problemas con Certificado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Pregunta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solicitud</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sugerencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>
