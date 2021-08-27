@@ -5,7 +5,6 @@
         <name>CompactLayout</name>
     </types>
     <types>
-        <members>Plazos_por_Etapa__c.Caso_c</members>
         <members>Plazos_por_Etapa__c.D_as_Transcurridos_numero__c</members>
         <members>Plazos_por_Etapa__c.D_as_Trasnscurridos__c</members>
         <members>Plazos_por_Etapa__c.Fecha_de_Inicio__c</members>
