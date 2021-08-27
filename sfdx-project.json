@@ -5,8 +5,8 @@
       "default": true
     }
   ],
-  "name": "C:/Users/Equipo/Documents/The Welkin Suite/Projects/DXProject1/DXProject1",
+  "name": "C:\Users\sbrav\Documents\GitHub\Oxiquim1",
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sfdcLoginUrl": "https://test.salesforce.com",
   "sourceApiVersion": "51.0"
 }
