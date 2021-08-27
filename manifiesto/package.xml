@@ -19,7 +19,7 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Plazos_por_Etapa__c</members>
+        <members>Plazos_por_Etapa</members>
         <name>FlexiPage</name>
     </types>
     <types>
