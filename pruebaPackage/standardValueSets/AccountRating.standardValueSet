@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>tipo_A</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Tipo A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>tipo_B</fullName>
+        <color>#66CCCC</color>
+        <default>false</default>
+        <label>Tipo B</label>
+    </standardValue>
+    <standardValue>
+        <fullName>tipo_C</fullName>
+        <color>#FFCC66</color>
+        <default>false</default>
+        <label>Tipo C</label>
+    </standardValue>
+</StandardValueSet>
