@@ -34,7 +34,7 @@
     </types>
     <types>
         <members>Opportunity.Direccion_de_entrega</members>
-        <name>Fieldset</name>
+        <name>Fieldsets</name>
     </types>
     <types>
         <members>Opportunity_Record_Page</members>
@@ -42,10 +42,10 @@
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Opportunity-DILOX</members>
-        <members>Opportunity-Quimicos_y_Especialidades</members>
+        <members>Opportunity-Dilox</members>
+        <members>Opportunity-Quimicos y Especialidades</members>
         <members>Opportunity-Resinas</members>
-        <members>Opportunity-Terminales</members>
+        <members>Opportunity-Terminales Marítimos</members>
         <name>Layout</name>
     </types>
     <types>
@@ -54,10 +54,6 @@
         <members>Oportunidad_Resinas</members>
         <members>Oportunidad_Terminales_Maritimos</members>
         <name>PathAssistant</name>
-    </types>
-    <types>
-        <members>Opportunity.Plantilla</members>
-        <name>QuickAction</name>
     </types>
     <types>
         <members>Opportunity.DILOX</members>
@@ -71,6 +67,10 @@
         <members>OpportunityStage</members>
         <members>OpportunityType</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Opportunity.Plantilla</members>
+        <name>webLinks</name>
     </types>
     <version>52.0</version>
 </Package>
