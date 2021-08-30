@@ -13,9 +13,5 @@
         <members>Terminal_CeBe_Estanque__c</members>
         <name>CustomObject</name>
     </types>
-    <types>
-        <members>Terminal_CeBe_Estanque__c-Formato Terminal, Centro de Beneficio y Estanque</members>
-        <name>Layout</name>
-    </types>
     <version>52.0</version>
 </Package>
