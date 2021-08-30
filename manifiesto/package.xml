@@ -1,71 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Opportunity.Proceso de Químicos, Esp. y Dilox</members>
-        <members>Opportunity.Proceso de Resinas</members>
-        <members>Opportunity.Proceso de Terminales Marítimos</members>
-        <name>BusinessProcess</name>
-    </types>
-    <types>
-        <members>Opportunity.New_Awesome_Companct_Layout</members>
+        <members>Contract.SYSTEM</members>
         <name>CompactLayout</name>
     </types>
     <types>
-        <members>Opportunity.Budget_Confirmed__c</members>
-        <members>Opportunity.Cantidad_de_Meses__c</members>
-        <members>Opportunity.Centro_Logistico__c</members>
-        <members>Opportunity.Ciudad_de_Entrega__c</members>
-        <members>Opportunity.Comentarios_sobre_razon_de_perdida__c</members>
-        <members>Opportunity.Comuna_de_Entrega__c</members>
-        <members>Opportunity.Condicion_de_venta__c</members>
-        <members>Opportunity.Contrato_Creado__c</members>
-        <members>Opportunity.Direccion_de_Entrega__c</members>
-        <members>Opportunity.Discovery_Completed__c</members>
-        <members>Opportunity.Loss_Reason__c</members>
-        <members>Opportunity.N_mero_de_Oportunidad__c</members>
-        <members>Opportunity.Pais_de_Entrega__c</members>
-        <members>Opportunity.ROI_Analysis_Completed__c</members>
-        <members>Opportunity.Region_de_Entrega__c</members>
-        <members>Opportunity.Sub_Categoria__c</members>
-        <members>Opportunity.Tipo_de_Negocio__c</members>
-        <members>Opportunity.Tipo_de_Servicio__c</members>
-        <members>Opportunity.Unidad_de_Negocios__c</members>
+        <members>Contract.Abastecimiento_de_Producto__c</members>
+        <members>Contract.Almacenamiento__c</members>
+        <members>Contract.Atencion_de_Naves__c</members>
+        <members>Contract.Carga_Camiones__c</members>
+        <members>Contract.Carga_Naves__c</members>
+        <members>Contract.Comentario_Capacidad_Excedida__c</members>
+        <members>Contract.Comentario_Reajuste__c</members>
+        <members>Contract.Conciliacion_de_Inventario__c</members>
+        <members>Contract.Condicion_Capacidad_Excedida__c</members>
+        <members>Contract.Condiciones_Especiales_de_Facturacion__c</members>
+        <members>Contract.Condiciones_Especiales_de_Operacion__c</members>
+        <members>Contract.Descarga_Camiones__c</members>
+        <members>Contract.Descarga_Naves__c</members>
+        <members>Contract.Frecuencia_Reajuste__c</members>
+        <members>Contract.Frecuencia_de_Conciliacion__c</members>
+        <members>Contract.Frecuencia_de_Proforma__c</members>
+        <members>Contract.Frecuencia_de_reunion__c</members>
+        <members>Contract.Inicio_de_reajustes__c</members>
+        <members>Contract.Inicio_hitos__c</members>
+        <members>Contract.Link_Documento__c</members>
+        <members>Contract.Oportunidad__c</members>
+        <members>Contract.Otros_Servicios__c</members>
+        <members>Contract.Otros__c</members>
+        <members>Contract.Rango_de_Tolerancia_Control_Inventario__c</members>
+        <members>Contract.Rates_de_Transferencia_de_Naves__c</members>
+        <members>Contract.Renovacion_Automatica__c</members>
+        <members>Contract.Reunion_Gestion_Cliente__c</members>
+        <members>Contract.Servicios_Logisticos__c</members>
+        <members>Contract.Tiene_Proforma__c</members>
+        <members>Contract.Tiene_Reajuste__c</members>
+        <members>Contract.Tipo__c</members>
+        <members>Contract.Transferencia_por_Ducto__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Opportunity.fieldset.Direccion_de_entrega</members>
-        <name>Fieldset</name>
-    </types>
-    <types>
-        <members>Opportunity_Record_Page</members>
-        <members>Opportunity_Record_Page_Terminales</members>
+        <members>Contrato_P_gina_de_registro</members>
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Opportunity-Dilox</members>
-        <members>Opportunity-Químicos y Especialidades</members>
-        <members>Opportunity-Resinas</members>
-        <members>Opportunity-Terminales Marítimos</members>
+        <members>Contract-Contract Layout</members>
+        <members>Contract-Contrato Terminales Marítimos</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>Oportunidad_DILOX</members>
-        <members>Oportunidad_Quimicos_Esp</members>
-        <members>Oportunidad_Resinas</members>
-        <members>Oportunidad_Terminales_Maritimos</members>
-        <name>PathAssistant</name>
-    </types>
-    <types>
-        <members>Opportunity.DILOX</members>
-        <members>Opportunity.Quimicos_y_Especialidades</members>
-        <members>Opportunity.Resinas</members>
-        <members>Opportunity.Terminales</members>
+        <members>Contract.Generales</members>
+        <members>Contract.Terminales_Maritimos</members>
         <name>RecordType</name>
     </types>
     <types>
-        <members>LeadSource</members>
-        <members>OpportunityStage</members>
-        <members>Type</members>
+        <members>ContractStatus</members>
         <name>StandardValueSet</name>
     </types>
     <version>52.0</version>
