@@ -24,7 +24,7 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Case_Record_Page</members>
+        <members>Caso_P_gina_de_registro1</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -33,8 +33,8 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Caso Sugerencias y Solicitudes</members>
-        <members>Casos Reclamo</members>
+        <members>Caso_Sugerencias_y_Solicitudes</members>
+        <members>Casos</members>
         <name>PathAssistant</name>
     </types>
     <types>
