@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Centro_de_Beneficio__c.Codigo_SAP__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Centro_de_Beneficio__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Centro_de_Beneficio</members>
-        <name>FlexiPage</name>
+        <members>Terminal__c-Formato Terminal</members>
+        <name>Layout</name>
     </types>
     <version>52.0</version>
 </Package>
