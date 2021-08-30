@@ -38,8 +38,8 @@
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Centro de Beneficio</masterLabel>
-    <sobjectType>Centro_de_Beneficio__c</sobjectType>
+    <masterLabel>Terminales</masterLabel>
+    <sobjectType>Terminal__c</sobjectType>
     <template>
         <name>flexipage:recordHomeSingleColTemplateDesktop</name>
         <properties>

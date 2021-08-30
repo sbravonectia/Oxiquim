@@ -129,7 +129,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Centro_de_Beneficio</content>
+        <content>Terminales</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -137,7 +137,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Centro_de_Beneficio</content>
+        <content>Terminales</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -158,46 +158,33 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Codigo_SAP__c</fullName>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>Código SAP</label>
-        <length>10</length>
+        <precision>18</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>Terminal__c</fullName>
-        <externalId>false</externalId>
-        <label>Terminal</label>
-        <referenceTo>Terminal__c</referenceTo>
-        <relationshipLabel>Centros de Beneficio</relationshipLabel>
-        <relationshipName>Centros_de_Beneficio</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
     <gender>Masculine</gender>
-    <label>Centro de Beneficio</label>
+    <label>Terminal</label>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
         <columns>Codigo_SAP__c</columns>
-        <columns>Terminal__c</columns>
         <filterScope>Everything</filterScope>
         <label>Todos</label>
     </listViews>
     <nameField>
-        <label>Nombre de CeBe</label>
+        <label>Nombre de Terminal</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Centros de Beneficio</pluralLabel>
+    <pluralLabel>Terminales</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Read</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
