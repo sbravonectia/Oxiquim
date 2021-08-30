@@ -43,11 +43,11 @@
         <name>RecordType</name>
     </types>
     <types>
-        <members>Origin</members>
-        <members>Priority</members>
-        <members>Reason</members>
-        <members>Status</members>
-        <members>Type</members>
+        <members>CaseOrigin</members>
+        <members>CasePriority</members>
+        <members>CaseReason</members>
+        <members>CaseStatus</members>
+        <members>CaseType</members>
         <name>StandardValueSet</name>
     </types>
     <version>52.0</version>
