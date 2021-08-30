@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Terminal__c-Formato Terminal</members>
+        <members>Contract.SYSTEM</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Contract.Abastecimiento_de_Producto__c</members>
+        <members>Contract.Almacenamiento__c</members>
+        <members>Contract.Atencion_de_Naves__c</members>
+        <members>Contract.Carga_Camiones__c</members>
+        <members>Contract.Carga_Naves__c</members>
+        <members>Contract.Comentario_Capacidad_Excedida__c</members>
+        <members>Contract.Comentario_Reajuste__c</members>
+        <members>Contract.Conciliacion_de_Inventario__c</members>
+        <members>Contract.Condicion_Capacidad_Excedida__c</members>
+        <members>Contract.Condiciones_Especiales_de_Facturacion__c</members>
+        <members>Contract.Condiciones_Especiales_de_Operacion__c</members>
+        <members>Contract.Descarga_Camiones__c</members>
+        <members>Contract.Descarga_Naves__c</members>
+        <members>Contract.Frecuencia_Reajuste__c</members>
+        <members>Contract.Frecuencia_de_Conciliacion__c</members>
+        <members>Contract.Frecuencia_de_Proforma__c</members>
+        <members>Contract.Frecuencia_de_reunion__c</members>
+        <members>Contract.Inicio_de_reajustes__c</members>
+        <members>Contract.Inicio_hitos__c</members>
+        <members>Contract.Link_Documento__c</members>
+        <members>Contract.Oportunidad__c</members>
+        <members>Contract.Otros_Servicios__c</members>
+        <members>Contract.Otros__c</members>
+        <members>Contract.Rango_de_Tolerancia_Control_Inventario__c</members>
+        <members>Contract.Rates_de_Transferencia_de_Naves__c</members>
+        <members>Contract.Renovacion_Automatica__c</members>
+        <members>Contract.Reunion_Gestion_Cliente__c</members>
+        <members>Contract.Servicios_Logisticos__c</members>
+        <members>Contract.Tiene_Proforma__c</members>
+        <members>Contract.Tiene_Reajuste__c</members>
+        <members>Contract.Tipo__c</members>
+        <members>Contract.Transferencia_por_Ducto__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Contrato_P_gina_de_registro</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Contract-Contract Layout</members>
+        <members>Contract-Contrato Terminales Marítimos</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Contract.Generales</members>
+        <members>Contract.Terminales_Maritimos</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>ContractStatus</members>
+        <name>StandardValueSet</name>
     </types>
     <version>52.0</version>
 </Package>
