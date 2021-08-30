@@ -1,0 +1,2213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessProcesses>
+        <fullName>Proceso de Quimicos Esp y Dilox</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Cerrado Ganado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerrado Perdido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iniciada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negociación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabajando</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Proceso de Resinas</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Cerrado Ganado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerrado Perdido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Análisis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iniciada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propuesta Entregada</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Proceso de Terminales Maritimos</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Cerrado Ganado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerrado Perdido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmación de Requerimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Factibilidad Técnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iniciada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propuesta y Negociación</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayouts>
+        <fullName>New_Awesome_Companct_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountId</fields>
+        <fields>CloseDate</fields>
+        <fields>Amount</fields>
+        <fields>OwnerId</fields>
+        <fields>RecordTypeId</fields>
+        <label>New Awesome Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Budget_Confirmed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Presupuesto confirmado</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cantidad_de_Meses__c</fullName>
+        <externalId>false</externalId>
+        <label>Cantidad de Meses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Centro_Logistico__c</fullName>
+        <description>Describe el centro logístico desde donde sale cotización</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Centro logístico desde donde sale la cotización</inlineHelpText>
+        <label>Centro Logístico</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1031</fullName>
+                    <default>false</default>
+                    <label>1031</label>
+                </value>
+                <value>
+                    <fullName>1034</fullName>
+                    <default>false</default>
+                    <label>1034</label>
+                </value>
+                <value>
+                    <fullName>1041</fullName>
+                    <default>false</default>
+                    <label>1041</label>
+                </value>
+                <value>
+                    <fullName>1050</fullName>
+                    <default>false</default>
+                    <label>1050</label>
+                </value>
+                <value>
+                    <fullName>1051</fullName>
+                    <default>false</default>
+                    <label>1051</label>
+                </value>
+                <value>
+                    <fullName>1061</fullName>
+                    <default>false</default>
+                    <label>1061</label>
+                </value>
+                <value>
+                    <fullName>1062</fullName>
+                    <default>false</default>
+                    <label>1062</label>
+                </value>
+                <value>
+                    <fullName>1064</fullName>
+                    <default>false</default>
+                    <label>1064</label>
+                </value>
+                <value>
+                    <fullName>1071</fullName>
+                    <default>false</default>
+                    <label>1071</label>
+                </value>
+                <value>
+                    <fullName>2031</fullName>
+                    <default>false</default>
+                    <label>2031</label>
+                </value>
+                <value>
+                    <fullName>2041</fullName>
+                    <default>false</default>
+                    <label>2041</label>
+                </value>
+                <value>
+                    <fullName>2061</fullName>
+                    <default>false</default>
+                    <label>2061</label>
+                </value>
+                <value>
+                    <fullName>2071</fullName>
+                    <default>false</default>
+                    <label>2071</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ciudad_de_Entrega__c</fullName>
+        <externalId>false</externalId>
+        <label>Ciudad de Entrega</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comentarios_sobre_razon_de_perdida__c</fullName>
+        <externalId>false</externalId>
+        <label>Comentarios sobre razón de pérdida</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comuna_de_Entrega__c</fullName>
+        <externalId>false</externalId>
+        <label>Comuna de Entrega</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Condicion_de_venta__c</fullName>
+        <externalId>false</externalId>
+        <label>Condición de venta</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Entregado en cliente</fullName>
+                    <default>false</default>
+                    <label>Entregado en cliente</label>
+                </value>
+                <value>
+                    <fullName>Puesto oficina</fullName>
+                    <default>false</default>
+                    <label>Puesto oficina</label>
+                </value>
+                <value>
+                    <fullName>DDP</fullName>
+                    <default>false</default>
+                    <label>DDP</label>
+                </value>
+                <value>
+                    <fullName>CIF</fullName>
+                    <default>false</default>
+                    <label>CIF</label>
+                </value>
+                <value>
+                    <fullName>FOB</fullName>
+                    <default>false</default>
+                    <label>FOB</label>
+                </value>
+                <value>
+                    <fullName>FCA</fullName>
+                    <default>false</default>
+                    <label>FCA</label>
+                </value>
+                <value>
+                    <fullName>EX-WORK</fullName>
+                    <default>false</default>
+                    <label>EX-WORK</label>
+                </value>
+                <value>
+                    <fullName>CFR</fullName>
+                    <default>false</default>
+                    <label>CFR</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contrato_Creado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Contrato Creado</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Direccion_de_Entrega__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Indica la calle y número de entrega</inlineHelpText>
+        <label>Dirección de Entrega</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Discovery_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descubrimiento completo</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Loss_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Razón de pérdida</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lost to Competitor</fullName>
+                    <default>false</default>
+                    <label>Perdido por la competencia</label>
+                </value>
+                <value>
+                    <fullName>No Budget / Lost Funding</fullName>
+                    <default>false</default>
+                    <label>Sin presupuesto</label>
+                </value>
+                <value>
+                    <fullName>No Decision / Non-Responsive</fullName>
+                    <default>false</default>
+                    <label>Sin decisión / No responde</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Precio</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Otro</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>N_mero_de_Oportunidad__c</fullName>
+        <displayFormat>{000000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>N_mero_de_Oportunidad__c</inlineHelpText>
+        <label>Número de Oportunidad</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Pais_de_Entrega__c</fullName>
+        <externalId>false</externalId>
+        <label>País de Entrega</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ROI_Analysis_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Análisis de ROI completado</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Region_de_Entrega__c</fullName>
+        <externalId>false</externalId>
+        <label>Región de Entrega</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Región de Arica y Parinacota</fullName>
+                    <default>false</default>
+                    <label>Región de Arica y Parinacota</label>
+                </value>
+                <value>
+                    <fullName>Región de Tarapacá</fullName>
+                    <default>false</default>
+                    <label>Región de Tarapacá</label>
+                </value>
+                <value>
+                    <fullName>Región de Antofagasta</fullName>
+                    <default>false</default>
+                    <label>Región de Antofagasta</label>
+                </value>
+                <value>
+                    <fullName>Región de Atacama</fullName>
+                    <default>false</default>
+                    <label>Región de Atacama</label>
+                </value>
+                <value>
+                    <fullName>Región de Coquimbo</fullName>
+                    <default>false</default>
+                    <label>Región de Coquimbo</label>
+                </value>
+                <value>
+                    <fullName>Región de Valparaíso</fullName>
+                    <default>false</default>
+                    <label>Región de Valparaíso</label>
+                </value>
+                <value>
+                    <fullName>Región Metropolitana de Santiago</fullName>
+                    <default>false</default>
+                    <label>Región Metropolitana de Santiago</label>
+                </value>
+                <value>
+                    <fullName>Región del Libertador General Bernardo O’Higgins</fullName>
+                    <default>false</default>
+                    <label>Región del Libertador General Bernardo O’Higgins</label>
+                </value>
+                <value>
+                    <fullName>Región del Maule</fullName>
+                    <default>false</default>
+                    <label>Región del Maule</label>
+                </value>
+                <value>
+                    <fullName>Región del Ñuble</fullName>
+                    <default>false</default>
+                    <label>Región del Ñuble</label>
+                </value>
+                <value>
+                    <fullName>Región del Biobío</fullName>
+                    <default>false</default>
+                    <label>Región del Biobío</label>
+                </value>
+                <value>
+                    <fullName>Región de La Araucanía</fullName>
+                    <default>false</default>
+                    <label>Región de La Araucanía</label>
+                </value>
+                <value>
+                    <fullName>Región de Los Ríos</fullName>
+                    <default>false</default>
+                    <label>Región de Los Ríos</label>
+                </value>
+                <value>
+                    <fullName>Región de Los Lagos</fullName>
+                    <default>false</default>
+                    <label>Región de Los Lagos</label>
+                </value>
+                <value>
+                    <fullName>Región de Aysén del General Carlos Ibáñez del Campo</fullName>
+                    <default>false</default>
+                    <label>Región de Aysén del General Carlos Ibáñez del Campo</label>
+                </value>
+                <value>
+                    <fullName>Región de Magallanes y la Antártica Chilena</fullName>
+                    <default>false</default>
+                    <label>Región de Magallanes y la Antártica Chilena</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Categoria__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Categoría</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adhesivos</fullName>
+                    <default>false</default>
+                    <label>Adhesivos</label>
+                </value>
+                <value>
+                    <fullName>Aguas de Piscina</fullName>
+                    <default>false</default>
+                    <label>Aguas de Piscina</label>
+                </value>
+                <value>
+                    <fullName>Aguas Industriales y Potabilización</fullName>
+                    <default>false</default>
+                    <label>Aguas Industriales y Potabilización</label>
+                </value>
+                <value>
+                    <fullName>Cosmética</fullName>
+                    <default>false</default>
+                    <label>Cosmética</label>
+                </value>
+                <value>
+                    <fullName>Detergentes y Limpieza</fullName>
+                    <default>false</default>
+                    <label>Detergentes y Limpieza</label>
+                </value>
+                <value>
+                    <fullName>Farmacéutica</fullName>
+                    <default>false</default>
+                    <label>Farmacéutica</label>
+                </value>
+                <value>
+                    <fullName>Industria Alimenticia</fullName>
+                    <default>false</default>
+                    <label>Industria Alimenticia</label>
+                </value>
+                <value>
+                    <fullName>Nutrición Animal</fullName>
+                    <default>false</default>
+                    <label>Nutrición Animal</label>
+                </value>
+                <value>
+                    <fullName>Otras Industrias</fullName>
+                    <default>false</default>
+                    <label>Otras Industrias</label>
+                </value>
+                <value>
+                    <fullName>Poliuretanos Flexibles</fullName>
+                    <default>false</default>
+                    <label>Poliuretanos Flexibles</label>
+                </value>
+                <value>
+                    <fullName>Pesquera y Acuícola</fullName>
+                    <default>false</default>
+                    <label>Pesquera y Acuícola</label>
+                </value>
+                <value>
+                    <fullName>Pinturas y Recubrimiento</fullName>
+                    <default>false</default>
+                    <label>Pinturas y Recubrimiento</label>
+                </value>
+                <value>
+                    <fullName>Plásticos</fullName>
+                    <default>false</default>
+                    <label>Plásticos</label>
+                </value>
+                <value>
+                    <fullName>Tintas y Procesos de Impresión</fullName>
+                    <default>false</default>
+                    <label>Tintas y Procesos de Impresión</label>
+                </value>
+                <value>
+                    <fullName>Colectores de Flotación</fullName>
+                    <default>false</default>
+                    <label>Colectores de Flotación</label>
+                </value>
+                <value>
+                    <fullName>Electro Obtención</fullName>
+                    <default>false</default>
+                    <label>Electro Obtención</label>
+                </value>
+                <value>
+                    <fullName>Extracción por Solvente</fullName>
+                    <default>false</default>
+                    <label>Extracción por Solvente</label>
+                </value>
+                <value>
+                    <fullName>Floculantes</fullName>
+                    <default>false</default>
+                    <label>Floculantes</label>
+                </value>
+                <value>
+                    <fullName>Minería de Oro y Plata</fullName>
+                    <default>false</default>
+                    <label>Minería de Oro y Plata</label>
+                </value>
+                <value>
+                    <fullName>Productos para la producción de Agua desalada, Industrial, Potabilización y Saneamiento</fullName>
+                    <default>false</default>
+                    <label>Productos para la producción de Agua desalada, Industrial, Potabilización y Saneamiento</label>
+                </value>
+                <value>
+                    <fullName>Químicos Industriales</fullName>
+                    <default>false</default>
+                    <label>Químicos Industriales</label>
+                </value>
+                <value>
+                    <fullName>Servicios</fullName>
+                    <default>false</default>
+                    <label>Servicios</label>
+                </value>
+                <value>
+                    <fullName>Impregnación de Recubrimientos y Papeles</fullName>
+                    <default>false</default>
+                    <label>Impregnación de Recubrimientos y Papeles</label>
+                </value>
+                <value>
+                    <fullName>Madera Dimensionada</fullName>
+                    <default>false</default>
+                    <label>Madera Dimensionada</label>
+                </value>
+                <value>
+                    <fullName>Moldes Fundición</fullName>
+                    <default>false</default>
+                    <label>Moldes Fundición</label>
+                </value>
+                <value>
+                    <fullName>Tableros Contrachapados</fullName>
+                    <default>false</default>
+                    <label>Tableros Contrachapados</label>
+                </value>
+                <value>
+                    <fullName>Tableros MDF</fullName>
+                    <default>false</default>
+                    <label>Tableros MDF</label>
+                </value>
+                <value>
+                    <fullName>Tableros OSB</fullName>
+                    <default>false</default>
+                    <label>Tableros OSB</label>
+                </value>
+                <value>
+                    <fullName>Tableros de Partículas</fullName>
+                    <default>false</default>
+                    <label>Tableros de Partículas</label>
+                </value>
+                <value>
+                    <fullName>Vigas Laminadas de Madera</fullName>
+                    <default>false</default>
+                    <label>Vigas Laminadas de Madera</label>
+                </value>
+                <value>
+                    <fullName>Químicos</fullName>
+                    <default>false</default>
+                    <label>Químicos</label>
+                </value>
+                <value>
+                    <fullName>Gas Licuado</fullName>
+                    <default>false</default>
+                    <label>Gas Licuado</label>
+                </value>
+                <value>
+                    <fullName>Combustibles</fullName>
+                    <default>false</default>
+                    <label>Combustibles</label>
+                </value>
+                <value>
+                    <fullName>Ácido Sulfúrico</fullName>
+                    <default>false</default>
+                    <label>Ácido Sulfúrico</label>
+                </value>
+                <value>
+                    <fullName>Automotriz</fullName>
+                    <default>false</default>
+                    <label>Automotriz</label>
+                </value>
+                <value>
+                    <fullName>Maderas</fullName>
+                    <default>false</default>
+                    <label>Maderas</label>
+                </value>
+                <value>
+                    <fullName>Metalmecánica</fullName>
+                    <default>false</default>
+                    <label>Metalmecánica</label>
+                </value>
+                <value>
+                    <fullName>Plásticos reforzados</fullName>
+                    <default>false</default>
+                    <label>Plásticos reforzados</label>
+                </value>
+                <value>
+                    <fullName>Envases flexibles</fullName>
+                    <default>false</default>
+                    <label>Envases flexibles</label>
+                </value>
+                <value>
+                    <fullName>Impresión Papel y Cartón</fullName>
+                    <default>false</default>
+                    <label>Impresión Papel y Cartón</label>
+                </value>
+                <value>
+                    <fullName>Hogar</fullName>
+                    <default>false</default>
+                    <label>Hogar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_Negocio__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Negocio</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Nacional</fullName>
+                    <default>false</default>
+                    <label>Nacional</label>
+                </value>
+                <value>
+                    <fullName>Exportación</fullName>
+                    <default>false</default>
+                    <label>Exportación</label>
+                </value>
+                <value>
+                    <fullName>Trading</fullName>
+                    <default>false</default>
+                    <label>Trading</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_Servicio__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Servicio</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Almacenaje</fullName>
+                    <default>false</default>
+                    <label>Almacenaje</label>
+                </value>
+                <value>
+                    <fullName>Muellaje</fullName>
+                    <default>false</default>
+                    <label>Muellaje</label>
+                </value>
+                <value>
+                    <fullName>Transferencia</fullName>
+                    <default>false</default>
+                    <label>Transferencia</label>
+                </value>
+                <value>
+                    <fullName>Limpieza de TK</fullName>
+                    <default>false</default>
+                    <label>Limpieza de TK</label>
+                </value>
+                <value>
+                    <fullName>Muellaje a la carga</fullName>
+                    <default>false</default>
+                    <label>Muellaje a la carga</label>
+                </value>
+                <value>
+                    <fullName>Servicio Administrativo</fullName>
+                    <default>false</default>
+                    <label>Servicio Administrativo</label>
+                </value>
+                <value>
+                    <fullName>Agua Fresca</fullName>
+                    <default>false</default>
+                    <label>Agua Fresca</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Unidad_de_Negocios__c</fullName>
+        <externalId>false</externalId>
+        <label>Unidad de Negocios</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Químicos</fullName>
+                    <default>false</default>
+                    <label>Químicos</label>
+                </value>
+                <value>
+                    <fullName>Minería</fullName>
+                    <default>false</default>
+                    <label>Minería</label>
+                </value>
+                <value>
+                    <fullName>Plásticos</fullName>
+                    <default>false</default>
+                    <label>Plásticos</label>
+                </value>
+                <value>
+                    <fullName>Escuadrón</fullName>
+                    <default>false</default>
+                    <label>Escuadrón</label>
+                </value>
+                <value>
+                    <fullName>Quintero</fullName>
+                    <default>false</default>
+                    <label>Quintero</label>
+                </value>
+                <value>
+                    <fullName>Resinas</fullName>
+                    <default>false</default>
+                    <label>Resinas</label>
+                </value>
+                <value>
+                    <fullName>Mejillones</fullName>
+                    <default>false</default>
+                    <label>Mejillones</label>
+                </value>
+                <value>
+                    <fullName>Dilox</fullName>
+                    <default>false</default>
+                    <label>Dilox</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <recordTypes>
+        <fullName>DILOX</fullName>
+        <active>true</active>
+        <businessProcess>Proceso de Quimicos Esp y Dilox</businessProcess>
+        <label>DILOX</label>
+        <picklistValues>
+            <picklist>Centro_Logistico__c</picklist>
+            <values>
+                <fullName>1031</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1034</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1041</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1050</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1051</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1061</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1062</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1064</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1071</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2031</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2041</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2061</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2071</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Condicion_de_venta__c</picklist>
+            <values>
+                <fullName>CFR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CIF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EX-WORK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entregado en cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FOB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puesto oficina</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loss_Reason__c</picklist>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region_de_Entrega__c</picklist>
+            <values>
+                <fullName>Región Metropolitana de Santiago</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Antofagasta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Arica y Parinacota</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Atacama</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Aysén del General Carlos Ibáñez del Campo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Coquimbo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de La Araucanía</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Los Lagos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Los Ríos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Magallanes y la Antártica Chilena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Tarapacá</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Valparaíso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Biobío</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Libertador General Bernardo O%E2%80%99Higgins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Maule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Ñuble</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Categoria__c</picklist>
+            <values>
+                <fullName>Adhesivos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aguas de Piscina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotriz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Envases flexibles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Impresión Papel y Cartón</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maderas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metalmecánica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plásticos reforzados</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Negocio__c</picklist>
+            <values>
+                <fullName>Exportación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trading</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Servicio__c</picklist>
+            <values>
+                <fullName>Agua Fresca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Almacenaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limpieza de TK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Muellaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Muellaje a la carga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio Administrativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Contrato</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orden Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venta Recurrente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venta Spot</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unidad_de_Negocios__c</picklist>
+            <values>
+                <fullName>Dilox</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Quimicos_y_Especialidades</fullName>
+        <active>true</active>
+        <businessProcess>Proceso de Quimicos Esp y Dilox</businessProcess>
+        <label>Químicos y Especialidades</label>
+        <picklistValues>
+            <picklist>Centro_Logistico__c</picklist>
+            <values>
+                <fullName>1031</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1034</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1041</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1050</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1051</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1061</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1062</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1064</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1071</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2031</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2041</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2061</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2071</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Condicion_de_venta__c</picklist>
+            <values>
+                <fullName>CFR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CIF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EX-WORK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entregado en cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FOB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puesto oficina</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loss_Reason__c</picklist>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region_de_Entrega__c</picklist>
+            <values>
+                <fullName>Región Metropolitana de Santiago</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Antofagasta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Arica y Parinacota</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Atacama</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Aysén del General Carlos Ibáñez del Campo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Coquimbo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de La Araucanía</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Los Lagos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Los Ríos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Magallanes y la Antártica Chilena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Tarapacá</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Valparaíso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Biobío</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Libertador General Bernardo O%E2%80%99Higgins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Maule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Ñuble</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Categoria__c</picklist>
+            <values>
+                <fullName>Adhesivos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aguas Industriales y Potabilización</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aguas de Piscina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colectores de Flotación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cosmética</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Detergentes y Limpieza</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electro Obtención</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extracción por Solvente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Farmacéutica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Floculantes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industria Alimenticia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minería de Oro y Plata</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nutrición Animal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otras Industrias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pesquera y Acuícola</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pinturas y Recubrimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plásticos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poliuretanos Flexibles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Productos para la producción de Agua desalada%2C Industrial%2C Potabilización y Saneamiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Químicos Industriales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Negocio__c</picklist>
+            <values>
+                <fullName>Exportación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trading</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Servicio__c</picklist>
+            <values>
+                <fullName>Agua Fresca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Almacenaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limpieza de TK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Muellaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Muellaje a la carga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio Administrativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Contrato</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orden Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venta Recurrente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venta Spot</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unidad_de_Negocios__c</picklist>
+            <values>
+                <fullName>Minería</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plásticos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Químicos</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Resinas</fullName>
+        <active>true</active>
+        <businessProcess>Proceso de Resinas</businessProcess>
+        <label>Resinas</label>
+        <picklistValues>
+            <picklist>Centro_Logistico__c</picklist>
+            <values>
+                <fullName>1031</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1034</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1041</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1050</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1051</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1061</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1062</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1064</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1071</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2031</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2041</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2061</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2071</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Condicion_de_venta__c</picklist>
+            <values>
+                <fullName>CFR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CIF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EX-WORK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entregado en cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FOB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puesto oficina</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loss_Reason__c</picklist>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region_de_Entrega__c</picklist>
+            <values>
+                <fullName>Región Metropolitana de Santiago</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Antofagasta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Arica y Parinacota</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Atacama</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Aysén del General Carlos Ibáñez del Campo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Coquimbo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de La Araucanía</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Los Lagos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Los Ríos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Magallanes y la Antártica Chilena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Tarapacá</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Valparaíso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Biobío</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Libertador General Bernardo O%E2%80%99Higgins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Maule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Ñuble</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Categoria__c</picklist>
+            <values>
+                <fullName>Adhesivos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aguas de Piscina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Impregnación de Recubrimientos y Papeles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madera Dimensionada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moldes Fundición</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableros Contrachapados</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableros MDF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableros OSB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableros de Partículas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vigas Laminadas de Madera</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Negocio__c</picklist>
+            <values>
+                <fullName>Exportación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trading</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Servicio__c</picklist>
+            <values>
+                <fullName>Agua Fresca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Almacenaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limpieza de TK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Muellaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Muellaje a la carga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio Administrativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Contrato</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orden Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venta Recurrente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venta Spot</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unidad_de_Negocios__c</picklist>
+            <values>
+                <fullName>Resinas</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Terminales</fullName>
+        <active>true</active>
+        <businessProcess>Proceso de Terminales Maritimos</businessProcess>
+        <label>Terminales Marítimos</label>
+        <picklistValues>
+            <picklist>Centro_Logistico__c</picklist>
+            <values>
+                <fullName>1031</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1061</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1062</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1064</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Condicion_de_venta__c</picklist>
+            <values>
+                <fullName>CFR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CIF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EX-WORK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entregado en cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FOB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puesto oficina</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loss_Reason__c</picklist>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region_de_Entrega__c</picklist>
+            <values>
+                <fullName>Región Metropolitana de Santiago</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Antofagasta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Arica y Parinacota</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Atacama</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Aysén del General Carlos Ibáñez del Campo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Coquimbo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de La Araucanía</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Los Lagos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Los Ríos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Magallanes y la Antártica Chilena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Tarapacá</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región de Valparaíso</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Biobío</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Libertador General Bernardo O%E2%80%99Higgins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Maule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Región del Ñuble</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Categoria__c</picklist>
+            <values>
+                <fullName>Adhesivos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aguas de Piscina</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Combustibles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gas Licuado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Químicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ácido Sulfúrico</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Negocio__c</picklist>
+            <values>
+                <fullName>Exportación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trading</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Servicio__c</picklist>
+            <values>
+                <fullName>Agua Fresca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Almacenaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limpieza de TK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Muellaje</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Muellaje a la carga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio Administrativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Contrato</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venta Recurrente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Venta Spot</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unidad_de_Negocios__c</picklist>
+            <values>
+                <fullName>Escuadrón</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mejillones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quintero</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>
