@@ -12,9 +12,5 @@
         <members>Centro_de_Beneficio</members>
         <name>FlexiPage</name>
     </types>
-    <types>
-        <members>Centro_de_Beneficio__c-Formato Centro de Beneficio</members>
-        <name>Layout</name>
-    </types>
     <version>52.0</version>
 </Package>
