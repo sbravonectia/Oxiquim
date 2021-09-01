@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Product2.Id_Externo__c</members>
-        <members>Product2.Peligrosidad__c</members>
-        <members>Product2.Unidad_de_Medida__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Producto_P_gina_de_registro</members>
+        <members>Cotizacion_Pagina_de_registro</members>
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Product2-Product Layout</members>
+        <members>Quote-Quote Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Quote.Cotizacion</members>
+        <name>RecordType</name>
     </types>
     <version>52.0</version>
 </Package>
