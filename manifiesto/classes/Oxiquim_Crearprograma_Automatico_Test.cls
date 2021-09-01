@@ -1,7 +1,8 @@
 @isTest
 public class Oxiquim_Crearprograma_Automatico_Test {
 	@isTest static void test() {
-        Oxiquim_Crearprograma_Automatico.crea_programa(crearOportundidad());
+        //Oxiquim_Crearprograma_Automatico.crea_programa(crearOportundidad());
+        crearOportundidad();
     }  
   
     private static List<Opportunity> crearOportundidad(){
@@ -43,6 +44,8 @@ public class Oxiquim_Crearprograma_Automatico_Test {
         crearOpportunityLineItemSchedule(crearOportunityLineItem(sobj,prod));
         oppList.add(sobj);
         
+        sobj.StageName = 'Cerrado Ganado';
+        update sobj;
         return oppList;
     }
     
