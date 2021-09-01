@@ -1,8 +1,9 @@
 @isTest
 public class Oxiquim_Crearprograma_Automatico_Test {
 	@isTest static void test() {
-        //Oxiquim_Crearprograma_Automatico.crea_programa(crearOportundidad());
-        crearOportundidad();
+       // crearOportundidad();
+        Oxiquim_Crearprograma_Automatico.crea_programa(crearOportundidad());
+        
     }  
   
     private static List<Opportunity> crearOportundidad(){
