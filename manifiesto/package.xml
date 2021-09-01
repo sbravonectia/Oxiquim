@@ -34,7 +34,7 @@
     </types>
     <types>
         <members>Opportunity.Direccion_de_entrega</members>
-        <name>Fieldset</name>
+        <name>FieldSet</name>
     </types>
     <types>
         <members>Opportunity_Record_Page</members>
@@ -67,6 +67,10 @@
         <members>OpportunityStage</members>
         <members>OpportunityType</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Opportunity.Plantilla</members>
+        <name>WebLink</name>
     </types>
     <version>52.0</version>
 </Package>

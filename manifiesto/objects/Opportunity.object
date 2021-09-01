@@ -86,6 +86,36 @@
         <fields>RecordTypeId</fields>
         <label>New Awesome Compact Layout</label>
     </compactLayouts>
+    <fieldSets>
+        <fullName>Direccion_de_entrega</fullName>
+        <description>Se utiliza en la oportunidad para determinar el lugar donde se enviará el o los materiales (productos)</description>
+        <displayedFields>
+            <field>Direccion_de_Entrega__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Ciudad_de_Entrega__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Comuna_de_Entrega__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Region_de_Entrega__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Pais_de_Entrega__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Dirección de entrega</label>
+    </fieldSets>
     <fields>
         <fullName>Budget_Confirmed__c</fullName>
         <defaultValue>false</defaultValue>
@@ -2210,4 +2240,24 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <webLinks>
+        <fullName>Plantilla</fullName>
+        <availability>online</availability>
+        <description>Borrador de contratos y propuestas</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Plantilla</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://sgestion/terminales/tmq/Registros/Forms/AllItems.aspx?RootFolder=%2fterminales%2ftmq%2fRegistros%2fInformes%20Mensuales%2fPlantillas&amp;FolderCTID=&amp;View=%7b21ED001E%2d0FE5%2d4EA3%2d821C%2d970C6A2D77FC%7d</url>
+    </webLinks>
 </CustomObject>
