@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>QuoteLineItem.SYSTEM</members>
-        <name>CompactLayout</name>
-    </types>
-    <types>
-        <members>QuoteLineItem.Asignacion_de_producto__c</members>
+        <members>Asignacion_de_productos__c.Centro_Logistico__c</members>
+        <members>Asignacion_de_productos__c.Centro_de_Beneficio__c</members>
+        <members>Asignacion_de_productos__c.Producto__c</members>
+        <members>Asignacion_de_productos__c.Sociedad__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>QuoteLineItem-Quote Line Item Layout</members>
-        <name>Layout</name>
+        <members>Asignacion_de_productos__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Asignaci_n_de_Productos</members>
+        <name>FlexiPage</name>
     </types>
     <version>52.0</version>
 </Package>
