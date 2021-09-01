@@ -22,10 +22,10 @@ jobs:
       - run:
           name: Login to UAT
           command: . build/setup-uat.sh
-     # - run:
-      #    name: Validate Components & Run Tests
-       #   command: . build/test.sh
-      #- run: echo "this is the test job"    
+      - run:
+          name: Validate Components & Run Tests
+          command: . build/test.sh
+      - run: echo "this is the test job"    
   deploy-prod:
     docker:
     - image: circleci/node:latest
