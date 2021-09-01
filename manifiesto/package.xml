@@ -4,9 +4,5 @@
         <members>Plazos_por_Etapa__c.Caso_c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>Plazos_por_Etapa__c</members>
-        <name>CustomObject</name>
-    </types>
     <version>52.0</version>
 </Package>
