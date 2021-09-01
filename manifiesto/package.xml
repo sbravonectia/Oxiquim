@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>OXIQUIM_fechaTerminoPlazosPorEtapa</members>
-        <members>OXIQUIM_fechaTerminoPlazosPorEtapa_Test</members>
-        <members>OXIQUIM_tipoDeCambioCallout</members>
-        <members>OXIQUIM_tipoDeCambioCallout_Test</members>
-        <members>OXIQUIM_tipoDeCambioCallout_Test</members>
-        <members>OXIQUIM_tipoDeCambio_Schedulable</members>
+        <members>OXIQUIM_FechaTerminoPlazosPorEtapa</members>
+        <members>OXIQUIM_FechaTerminoPlazosPorEtapa_Test</members>
+        <members>OXIQUIM_TipoDeCambioCallout</members>
+        <members>OXIQUIM_TipoDeCambioCallout_Test</members>
+        <members>OXIQUIM_TipoDeCambioCallout_Test</members>
+        <members>OXIQUIM_TipoDeCambio_Schedulable</members>
         <members>Oxiquim_Crearprograma_Automatico</members>
         <members>Oxiquim_Crearprograma_Automatico_Test</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Tipo_de_Cambio_QA</members>
+        <members>Servicio_Web__mdt.Cuenta_Corriente_SAP_QA</members>
+        <members>Servicio_Web__mdt.Tipo_de_Cambio_QA</members>
         <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Servicio_Web__mdt</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>ZRFC_WS_TIPOCAMBIOResponse</members>
