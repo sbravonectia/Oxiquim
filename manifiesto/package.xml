@@ -8,9 +8,5 @@
         <members>QuoteLineItem.Asignacion_de_producto__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>QuoteLineItem-Quote Line Item Layout</members>
-        <name>Layout</name>
-    </types>
     <version>52.0</version>
 </Package>
