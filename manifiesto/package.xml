@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>unfiled$public/Evaluaci_n_de_Informe</members>
-        <name>EmailTemplate</name>
+        <members>*</members>
+        <name>Profile</name>
     </types>
     <types>
         <members>*</members>
-        <name>Flow</name>
+        <name>ProfilePasswordPolicy</name>
     </types>
     <types>
-        <members>Farma</members>
-        <name>Queue</name>
-    </types>
-    <types>
-        <members>Case.Rechaza_Informe_Oxireport</members>
-        <name>WorkflowAlert</name>
-    </types>
-    <types>
-        <members>Plazos_por_Etapa__c.D_as_Transcurridos_Actualiza</members>
-        <name>WorkflowFieldUpdate</name>
+        <members>*</members>
+        <name>ProfileSessionSetting</name>
     </types>
     <version>52.0</version>
 </Package>
