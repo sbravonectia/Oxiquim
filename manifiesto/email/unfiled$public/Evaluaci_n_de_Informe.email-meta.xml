@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Evaluación de Informe</name>
+    <style>none</style>
+    <subject>Recalzo de Evaluación de Informe Oxireport</subject>
+    <textOnly>Estimado.  El caso número {!Case.CaseNumber} a sido rechazado, se solicita revisar informe Oxireport número {!Case.Numero_de_Oxireport__c}.  Saludos</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
