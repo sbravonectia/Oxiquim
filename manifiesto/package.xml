@@ -8,5 +8,13 @@
         <members>*</members>
         <name>CustomTab</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>tabs</name>
+    </types>
     <version>52.0</version>
 </Package>
