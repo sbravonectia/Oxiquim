@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Salesforce CMS</label>
+    <navType>Console</navType>
+    <tabs>standard-CmsAuthorHome</tabs>
+    <tabs>standard-CmsChannel</tabs>
+    <tabs>standard-CmsWorkspaces</tabs>
+    <tabs>standard-CmsExperiences</tabs>
+    <tabs>Asignacion_de_productos__c</tabs>
+    <tabs>Terminal__c</tabs>
+    <tabs>Centro_de_Beneficio__c</tabs>
+    <tabs>Terminal_CeBe_Estanque__c</tabs>
+    <uiType>Lightning</uiType>
+    <workspaceConfig>
+        <mappings>
+            <tab>Asignacion_de_productos__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Centro_de_Beneficio__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Terminal_CeBe_Estanque__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Terminal__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CmsAuthorHome</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CmsChannel</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CmsExperiences</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CmsWorkspaces</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
