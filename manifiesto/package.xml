@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Proyecto_Innovacion__c.Codigo_del_Proyecto__c</members>
         <members>Proyecto_Innovacion__c.Cuenta__c</members>
         <members>Proyecto_Innovacion__c.Descripcion__c</members>
         <members>Proyecto_Innovacion__c.Division__c</members>
@@ -10,8 +11,10 @@
         <members>Proyecto_Innovacion__c.Oportunidad__c</members>
         <members>Proyecto_Innovacion__c.Recursos_clave__c</members>
         <members>Proyecto_Innovacion__c.Resumen_del_proyecto__c</members>
+        <members>Proyecto_Innovacion__c.Roles_del_Proyecto__c</members>
         <members>Proyecto_Innovacion__c.Sociedad__c</members>
         <members>Proyecto_Innovacion__c.Unidad_de_negocio__c</members>
+        <members>Proyecto_Innovacion__c.Valorizacion_del_Proyecto__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -21,6 +24,10 @@
     <types>
         <members>Proyecto</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Proyecto_Innovacion__c-Formato Proyecto + Innovación</members>
+        <name>Layout</name>
     </types>
     <types>
         <members>Proyectos</members>
