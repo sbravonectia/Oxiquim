@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Unidad_de_medida__c</fullName>
+        <externalId>false</externalId>
+        <label>Unidad de medida</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cj</fullName>
+                    <default>false</default>
+                    <label>Cj (caja)</label>
+                </value>
+                <value>
+                    <fullName>Gr</fullName>
+                    <default>false</default>
+                    <label>Gr</label>
+                </value>
+                <value>
+                    <fullName>Hr</fullName>
+                    <default>false</default>
+                    <label>Hr</label>
+                </value>
+                <value>
+                    <fullName>KG</fullName>
+                    <default>false</default>
+                    <label>KG</label>
+                </value>
+                <value>
+                    <fullName>Kmk</fullName>
+                    <default>false</default>
+                    <label>Kmk (Metro cúbico/Metro cúbico)</label>
+                </value>
+                <value>
+                    <fullName>Ks</fullName>
+                    <default>false</default>
+                    <label>Ks (kilos secos)</label>
+                </value>
+                <value>
+                    <fullName>L</fullName>
+                    <default>false</default>
+                    <label>L</label>
+                </value>
+                <value>
+                    <fullName>M3</fullName>
+                    <default>false</default>
+                    <label>M3</label>
+                </value>
+                <value>
+                    <fullName>Ml</fullName>
+                    <default>false</default>
+                    <label>Ml (mililitro)</label>
+                </value>
+                <value>
+                    <fullName>Ton</fullName>
+                    <default>false</default>
+                    <label>Ton</label>
+                </value>
+                <value>
+                    <fullName>Tr</fullName>
+                    <default>false</default>
+                    <label>Tr (tambor)</label>
+                </value>
+                <value>
+                    <fullName>Un</fullName>
+                    <default>false</default>
+                    <label>Un</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
