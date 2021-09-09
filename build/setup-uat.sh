@@ -11,9 +11,9 @@ echo "Conectar QA"
 sfdx alias:set my-hub-orgQA=administrador_nectia@nectia.com.qa
 sfdx auth:jwt:grant --clientid $SFDC_QA_CLIENTID --jwtkeyfile JWT/server.key --username $SFDC_QA_USER --instanceurl https://test.salesforce.com
 
-#echo "Conectar PreProd"
-#sfdx alias:set my-hub-orgUAT2=administrador_nectia@nectia.com.preprod
-#sfdx auth:jwt:grant --clientid $SFDC_UAT_CLIENTID --jwtkeyfile JWT/server.key --username $SFDC_UAT_USER --instanceurl https://test.salesforce.com
+echo "Conectar PreProd"
+sfdx alias:set my-hub-orgUAT2=administrador_nectia@nectia.com.preprod
+sfdx auth:jwt:grant --clientid $SFDC_UAT_CLIENTID --jwtkeyfile JWT/server.key --username $SFDC_UAT_USER --instanceurl https://test.salesforce.com
 
 #echo "Conectar Prod"
 #sfdx alias:set my-hub-Prod=administrador_nectia@nectia.com

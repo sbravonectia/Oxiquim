@@ -2,7 +2,7 @@
 echo "##########Desplegando..."
 sfdx force:org:list
 sfdx force: mdapi:convert -d deploy_prod -r manifiesto
-sfdx config:set defaultusername=administrador_nectia@nectia.com.qa
+sfdx config:set defaultusername=administrador_nectia@nectia.com.preprod
 sfdx force:mdapi:deploy -d manifiesto -u my-hub-orgQA -w 10 -l RunLocalTests -w 33 --verbose --loglevel fatal
 
 #-l RunSpecifiedTests -r AMICAR_ChecklistGetJSONTest -w 33 --verbose --loglevel fatal
