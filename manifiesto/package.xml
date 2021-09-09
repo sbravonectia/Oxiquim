@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Plazos_Por_Etapa_Asignacion_Fecha</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>Proceso_de_Casos</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>Nombre_de_la_oportunidad</members>
-        <name>Flow</name>
+        <members>Lead.Prospectos_de_Dilox</members>
+        <members>Lead.Prospectos_de_Quimios_y_Especialidades</members>
+        <members>Lead.Prospectos_de_Resinas</members>
+        <members>Lead.Prospectos_de_Terminales</members>
+        <members>Opportunity.Equipo_de_Ventas_Dilox</members>
+        <members>Opportunity.Equipo_de_Ventas_Mineria</members>
+        <members>Opportunity.Equipo_de_Ventas_Mineria_Quimicos</members>
+        <members>Opportunity.Equipo_de_Ventas_Plasticos</members>
+        <members>Opportunity.Equipo_de_Ventas_Quimicos</members>
+        <members>Opportunity.Equipo_de_Ventas_Resinas</members>
+        <members>Opportunity.Equipo_de_Ventas_Terminales</members>
+        <name>SharingCriteriaRule</name>
     </types>
     <version>52.0</version>
 </Package>
