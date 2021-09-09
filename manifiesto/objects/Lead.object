@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>Leads_Custom_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Company</fields>
+        <fields>Title</fields>
+        <fields>Phone</fields>
+        <fields>MobilePhone</fields>
+        <fields>Email</fields>
+        <label>Leads Custom Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Descripci_n__c</fullName>
+        <externalId>false</externalId>
+        <label>Descripción</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Division_de_negocio__c</fullName>
+        <externalId>false</externalId>
+        <label>División de Negocio</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Químicos y Especialidades</fullName>
+                    <default>false</default>
+                    <label>Químicos y Especialidades</label>
+                </value>
+                <value>
+                    <fullName>Resinas</fullName>
+                    <default>false</default>
+                    <label>Resinas</label>
+                </value>
+                <value>
+                    <fullName>Terminales Marítimos</fullName>
+                    <default>false</default>
+                    <label>Terminales Marítimos</label>
+                </value>
+                <value>
+                    <fullName>Dilox</fullName>
+                    <default>false</default>
+                    <label>Dilox</label>
+                </value>
+                <value>
+                    <fullName>Minería</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Minería</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Giro__c</fullName>
+        <description>Giro comercial de la empresa</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Giro comercial de la empresa</inlineHelpText>
+        <label>Giro</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Oficina_Depto_Otro__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Agrega información adicional para complementar la dirección.</inlineHelpText>
+        <label>Oficina/Depto./Otro</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>RUT_Razon_Social__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>El formato es sin punto y con guión.</inlineHelpText>
+        <label>RUT Razón Social</label>
+        <length>11</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Categoria__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Categoría</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Unidad_de_Negocio__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ácidos</fullName>
+                    <default>false</default>
+                    <label>Ácidos</label>
+                </value>
+                <value>
+                    <fullName>Bencina Blanca</fullName>
+                    <default>false</default>
+                    <label>Bencina Blanca</label>
+                </value>
+                <value>
+                    <fullName>Adhesivos</fullName>
+                    <default>false</default>
+                    <label>Adhesivos</label>
+                </value>
+                <value>
+                    <fullName>Aguas de Piscina</fullName>
+                    <default>false</default>
+                    <label>Aguas de Piscina</label>
+                </value>
+                <value>
+                    <fullName>Aguas Industriales y Potabilización</fullName>
+                    <default>false</default>
+                    <label>Aguas Industriales y Potabilización</label>
+                </value>
+                <value>
+                    <fullName>Cosmética</fullName>
+                    <default>false</default>
+                    <label>Cosmética</label>
+                </value>
+                <value>
+                    <fullName>Detergentes y Limpieza</fullName>
+                    <default>false</default>
+                    <label>Detergentes y Limpieza</label>
+                </value>
+                <value>
+                    <fullName>Farmacéutica</fullName>
+                    <default>false</default>
+                    <label>Farmacéutica</label>
+                </value>
+                <value>
+                    <fullName>Industria Alimenticia</fullName>
+                    <default>false</default>
+                    <label>Industria Alimenticia</label>
+                </value>
+                <value>
+                    <fullName>Nutrición Animal</fullName>
+                    <default>false</default>
+                    <label>Nutrición Animal</label>
+                </value>
+                <value>
+                    <fullName>Otras Industrias</fullName>
+                    <default>false</default>
+                    <label>Otras Industrias</label>
+                </value>
+                <value>
+                    <fullName>Poliuretanos Flexibles</fullName>
+                    <default>false</default>
+                    <label>Poliuretanos Flexibles</label>
+                </value>
+                <value>
+                    <fullName>Pesquera y Acuícola</fullName>
+                    <default>false</default>
+                    <label>Pesquera y Acuícola</label>
+                </value>
+                <value>
+                    <fullName>Pinturas y Recubrimiento</fullName>
+                    <default>false</default>
+                    <label>Pinturas y Recubrimiento</label>
+                </value>
+                <value>
+                    <fullName>Plásticos</fullName>
+                    <default>false</default>
+                    <label>Plásticos</label>
+                </value>
+                <value>
+                    <fullName>Tintas y Procesos de Impresión</fullName>
+                    <default>false</default>
+                    <label>Tintas y Procesos de Impresión</label>
+                </value>
+                <value>
+                    <fullName>Colectores de Flotación</fullName>
+                    <default>false</default>
+                    <label>Colectores de Flotación</label>
+                </value>
+                <value>
+                    <fullName>Electro Obtención</fullName>
+                    <default>false</default>
+                    <label>Electro Obtención</label>
+                </value>
+                <value>
+                    <fullName>Extracción por Solvente</fullName>
+                    <default>false</default>
+                    <label>Extracción por Solvente</label>
+                </value>
+                <value>
+                    <fullName>Floculantes</fullName>
+                    <default>false</default>
+                    <label>Floculantes</label>
+                </value>
+                <value>
+                    <fullName>Minería de Oro y Plata</fullName>
+                    <default>false</default>
+                    <label>Minería de Oro y Plata</label>
+                </value>
+                <value>
+                    <fullName>Productos para la producción de Agua desalada, Industrial, Potabilización y Saneamiento</fullName>
+                    <default>false</default>
+                    <label>Productos para la producción de Agua desalada, Industrial, Potabilización y Saneamiento</label>
+                </value>
+                <value>
+                    <fullName>Químicos Industriales</fullName>
+                    <default>false</default>
+                    <label>Químicos Industriales</label>
+                </value>
+                <value>
+                    <fullName>Servicios</fullName>
+                    <default>false</default>
+                    <label>Servicios</label>
+                </value>
+                <value>
+                    <fullName>Impregnación de Recubrimientos y Papeles</fullName>
+                    <default>false</default>
+                    <label>Impregnación de Recubrimientos y Papeles</label>
+                </value>
+                <value>
+                    <fullName>Madera Dimensionada</fullName>
+                    <default>false</default>
+                    <label>Madera Dimensionada</label>
+                </value>
+                <value>
+                    <fullName>Moldes Fundición</fullName>
+                    <default>false</default>
+                    <label>Moldes Fundición</label>
+                </value>
+                <value>
+                    <fullName>Productos de representación</fullName>
+                    <default>false</default>
+                    <label>Productos de representación</label>
+                </value>
+                <value>
+                    <fullName>Tableros Contrachapados</fullName>
+                    <default>false</default>
+                    <label>Tableros Contrachapados</label>
+                </value>
+                <value>
+                    <fullName>Tableros MDF</fullName>
+                    <default>false</default>
+                    <label>Tableros MDF</label>
+                </value>
+                <value>
+                    <fullName>Tableros OSB</fullName>
+                    <default>false</default>
+                    <label>Tableros OSB</label>
+                </value>
+                <value>
+                    <fullName>Tableros de Partículas</fullName>
+                    <default>false</default>
+                    <label>Tableros de Partículas</label>
+                </value>
+                <value>
+                    <fullName>Vigas Laminadas de Madera</fullName>
+                    <default>false</default>
+                    <label>Vigas Laminadas de Madera</label>
+                </value>
+                <value>
+                    <fullName>Químicos</fullName>
+                    <default>false</default>
+                    <label>Químicos</label>
+                </value>
+                <value>
+                    <fullName>Gas Licuado</fullName>
+                    <default>false</default>
+                    <label>Gas Licuado</label>
+                </value>
+                <value>
+                    <fullName>Combustibles</fullName>
+                    <default>false</default>
+                    <label>Combustibles</label>
+                </value>
+                <value>
+                    <fullName>Ácido Sulfúrico</fullName>
+                    <default>false</default>
+                    <label>Ácido Sulfúrico</label>
+                </value>
+                <value>
+                    <fullName>Automotriz</fullName>
+                    <default>false</default>
+                    <label>Automotriz</label>
+                </value>
+                <value>
+                    <fullName>Maderas</fullName>
+                    <default>false</default>
+                    <label>Maderas</label>
+                </value>
+                <value>
+                    <fullName>Metalmecánica</fullName>
+                    <default>false</default>
+                    <label>Metalmecánica</label>
+                </value>
+                <value>
+                    <fullName>Plásticos reforzados</fullName>
+                    <default>false</default>
+                    <label>Plásticos reforzados</label>
+                </value>
+                <value>
+                    <fullName>Envases flexibles</fullName>
+                    <default>false</default>
+                    <label>Envases flexibles</label>
+                </value>
+                <value>
+                    <fullName>Impresión papel &amp; cartón</fullName>
+                    <default>false</default>
+                    <label>Impresión papel &amp; cartón</label>
+                </value>
+                <value>
+                    <fullName>Hogar</fullName>
+                    <default>false</default>
+                    <label>Hogar</label>
+                </value>
+                <value>
+                    <fullName>Reactivos de Flotación</fullName>
+                    <default>false</default>
+                    <label>Reactivos de Flotación</label>
+                </value>
+                <value>
+                    <fullName>Lixiviación</fullName>
+                    <default>false</default>
+                    <label>Lixiviación</label>
+                </value>
+                <value>
+                    <fullName>SX / EW</fullName>
+                    <default>false</default>
+                    <label>SX / EW</label>
+                </value>
+                <value>
+                    <fullName>Floculantes / Aguas</fullName>
+                    <default>false</default>
+                    <label>Floculantes / Aguas</label>
+                </value>
+                <value>
+                    <fullName>Tronadura</fullName>
+                    <default>false</default>
+                    <label>Tronadura</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Ácidos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Bencina Blanca</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Adhesivos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Aguas de Piscina</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Aguas Industriales y Potabilización</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Cosmética</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Detergentes y Limpieza</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Farmacéutica</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Industria Alimenticia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Nutrición Animal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Otras Industrias</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Poliuretanos Flexibles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Pesquera y Acuícola</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Pinturas y Recubrimiento</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Plásticos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos</controllingFieldValue>
+                <controllingFieldValue>Plásticos</controllingFieldValue>
+                <valueName>Tintas y Procesos de Impresión</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Minería</controllingFieldValue>
+                <valueName>Minería de Oro y Plata</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Minería</controllingFieldValue>
+                <valueName>Servicios</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Minería</controllingFieldValue>
+                <valueName>Reactivos de Flotación</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Minería</controllingFieldValue>
+                <valueName>Lixiviación</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Minería</controllingFieldValue>
+                <valueName>SX / EW</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Minería</controllingFieldValue>
+                <valueName>Floculantes / Aguas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Minería</controllingFieldValue>
+                <valueName>Tronadura</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Impregnación de Recubrimientos y Papeles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Madera Dimensionada</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Moldes Fundición</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Productos de representación</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Tableros Contrachapados</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Tableros MDF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Tableros OSB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Tableros de Partículas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Vigas Laminadas de Madera</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Escuadrón</controllingFieldValue>
+                <controllingFieldValue>Quintero</controllingFieldValue>
+                <controllingFieldValue>Mejillones</controllingFieldValue>
+                <valueName>Químicos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Escuadrón</controllingFieldValue>
+                <controllingFieldValue>Quintero</controllingFieldValue>
+                <controllingFieldValue>Mejillones</controllingFieldValue>
+                <valueName>Gas Licuado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Escuadrón</controllingFieldValue>
+                <controllingFieldValue>Quintero</controllingFieldValue>
+                <controllingFieldValue>Mejillones</controllingFieldValue>
+                <valueName>Combustibles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Escuadrón</controllingFieldValue>
+                <controllingFieldValue>Quintero</controllingFieldValue>
+                <controllingFieldValue>Mejillones</controllingFieldValue>
+                <valueName>Ácido Sulfúrico</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Quintero</controllingFieldValue>
+                <controllingFieldValue>Dilox</controllingFieldValue>
+                <valueName>Automotriz</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dilox</controllingFieldValue>
+                <valueName>Maderas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dilox</controllingFieldValue>
+                <valueName>Metalmecánica</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dilox</controllingFieldValue>
+                <valueName>Plásticos reforzados</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dilox</controllingFieldValue>
+                <valueName>Envases flexibles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dilox</controllingFieldValue>
+                <valueName>Impresión papel &amp; cartón</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dilox</controllingFieldValue>
+                <valueName>Hogar</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Unidad_de_Negocio__c</fullName>
+        <externalId>false</externalId>
+        <label>Unidad de Negocio</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Division_de_negocio__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Químicos</fullName>
+                    <default>false</default>
+                    <label>Químicos</label>
+                </value>
+                <value>
+                    <fullName>Minería</fullName>
+                    <default>false</default>
+                    <label>Minería</label>
+                </value>
+                <value>
+                    <fullName>Plásticos</fullName>
+                    <default>false</default>
+                    <label>Plásticos</label>
+                </value>
+                <value>
+                    <fullName>Resinas</fullName>
+                    <default>false</default>
+                    <label>Resinas</label>
+                </value>
+                <value>
+                    <fullName>Quintero</fullName>
+                    <default>false</default>
+                    <label>Quintero</label>
+                </value>
+                <value>
+                    <fullName>Escuadrón</fullName>
+                    <default>false</default>
+                    <label>Escuadrón</label>
+                </value>
+                <value>
+                    <fullName>Mejillones</fullName>
+                    <default>false</default>
+                    <label>Mejillones</label>
+                </value>
+                <value>
+                    <fullName>Dilox</fullName>
+                    <default>false</default>
+                    <label>Dilox</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Químicos y Especialidades</controllingFieldValue>
+                <valueName>Químicos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos y Especialidades</controllingFieldValue>
+                <valueName>Minería</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Químicos y Especialidades</controllingFieldValue>
+                <valueName>Plásticos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Resinas</controllingFieldValue>
+                <valueName>Resinas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Terminales Marítimos</controllingFieldValue>
+                <valueName>Quintero</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Terminales Marítimos</controllingFieldValue>
+                <valueName>Escuadrón</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Terminales Marítimos</controllingFieldValue>
+                <valueName>Mejillones</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dilox</controllingFieldValue>
+                <valueName>Dilox</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Venta_Esperada__c</fullName>
+        <externalId>false</externalId>
+        <label>Venta Esperada</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>Validacion_de_Rut_Razon_Social</fullName>
+        <active>true</active>
+        <errorConditionFormula>11-(mod(VALUE(mid(RUT_Razon_Social__c,1,1)) *(len(RUT_Razon_Social__c) - 7) + (10-len(RUT_Razon_Social__c)) * VALUE(mid(RUT_Razon_Social__c,2,1))* 7 + (len(RUT_Razon_Social__c) - 9) * VALUE(mid(RUT_Razon_Social__c,2,1)) * 2 + VALUE(mid(RUT_Razon_Social__c,3,1)) *( len(RUT_Razon_Social__c) -3) + VALUE(mid(RUT_Razon_Social__c,4,1)) * (len(RUT_Razon_Social__c) -4)+VALUE(mid(RUT_Razon_Social__c,5,1)) * (len(RUT_Razon_Social__c) - 5) + VALUE(mid(RUT_Razon_Social__c,6,1)) * (len(RUT_Razon_Social__c) - 6) + VALUE(mid(RUT_Razon_Social__c,7,1)) *( len(RUT_Razon_Social__c) - 7) +(len(RUT_Razon_Social__c) - 9) * VALUE(mid(RUT_Razon_Social__c,(len(RUT_Razon_Social__c) -2),1)) * 2,11))
+&lt;&gt;
+IF(MID( RUT_Razon_Social__c, FIND(&quot;-&quot;, RUT_Razon_Social__c)+1 ,1)=&apos;0&apos;, 11, IF(or(MID( RUT_Razon_Social__c, FIND(&quot;-&quot;, RUT_Razon_Social__c)+1 ,1)=&apos;k&apos;,MID( RUT_Razon_Social__c, FIND(&quot;-&quot;, RUT_Razon_Social__c)+1 ,1)=&apos;K&apos;), 10, VALUE(MID( RUT_Razon_Social__c, FIND(&quot;-&quot;, RUT_Razon_Social__c)+1 ,1))) )</errorConditionFormula>
+        <errorMessage>Rut inválido</errorMessage>
+    </validationRules>
+</CustomObject>
