@@ -4,9 +4,5 @@
         <members>OpportunityLineItem.Unidad_de_medida_de_venta__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>OpportunityLineItem_Producto_de_oportunidad_P_gina_de_registro</members>
-        <name>FlexiPage</name>
-    </types>
     <version>52.0</version>
 </Package>
